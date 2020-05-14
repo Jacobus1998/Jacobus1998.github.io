@@ -1,0 +1,20 @@
+body{
+    background-color: blue;
+}
+h1{
+    text-decoration: underline;
+    position: absolute;
+    top:0%;
+    left:37%;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+a{
+    font-family: fantasy;
+    display:block;
+    
+}

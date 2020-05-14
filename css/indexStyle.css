@@ -1,0 +1,41 @@
+body {
+    background-color:blue;
+    
+  }
+  
+  p.name{
+      position: absolute;
+      top:0%;
+      left:30%;
+      text-decoration: underline;
+      /* text-decoration: dotted; */
+  }
+.myPic{
+  position: absolute;
+  top:10%;
+  left:1%;
+
+  border-radius: 20%;
+}
+
+ 
+  
+.myInfo{
+  position: absolute;
+  top:25%;
+  left:30%;
+  
+  
+  background-color: rgb(101, 162, 202);
+  border-style: solid;
+  border-width:3px;
+  border-color: aquamarine;
+  width: 30%;
+  height: 50%;
+}
+
+.infoWrapper{
+  text-align: center;
+  vertical-align: middle;
+  font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,26 @@
+.AcademicHistory{
+    position: absolute;
+    top:30%;
+    left:20%;
+    background-color: rgb(101, 162, 202);
+    width:30%;
+    height:40%;
+}
+
+#tvc{
+    position: absolute;
+    top:20%;
+    left:2%;
+    background-color: white;
+    width: 10%;
+    height: auto;
+}
+
+#tuks{
+    position: absolute;
+    top:53%;
+    left:2%;
+    background-color: white;
+    width:10%;
+    height:auto;
+}
