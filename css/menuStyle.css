@@ -57,7 +57,7 @@ p.pulseText{
 
   
   .menu {
-    position: absolute;
+    position: fixed;
     top:50%;
     left:73%;
   }
