@@ -1,8 +1,8 @@
 .AcademicHistory{
     position: absolute;
     top:30%;
-    left:20%;
-    background-color: rgb(101, 162, 202);
+    left:20%;   
+    background-color: #333;
     width:30%;
     height:40%;
 }
@@ -11,7 +11,6 @@
     position: absolute;
     top:20%;
     left:2%;
-    background-color: white;
     width: 10%;
     height: auto;
 }
@@ -20,7 +19,6 @@
     position: absolute;
     top:53%;
     left:2%;
-    background-color: white;
     width:10%;
     height:auto;
 }
