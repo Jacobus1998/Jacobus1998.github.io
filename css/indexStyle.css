@@ -6,15 +6,15 @@ body {
   p.name{
       position: fixed;
       top:10%;
-      left:30%;
+      left:27%;
       text-decoration: underline;
-      color: chartreuse;
+      color: white;
       /* text-decoration: dotted; */
   }
 .myPic{
   position: fixed;
   top:15%;
-  left:1%;
+  left:70%;
 
   border-radius: 20%;
 }
@@ -26,7 +26,7 @@ body {
   top:25%;
   left:30%;
   
-  color: green;
+  color: white;
   background-color: #333;
   border-style: solid;
   border-width:3px;
