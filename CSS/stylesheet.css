@@ -1,0 +1,249 @@
+/* Styling the common tags that the page will use  */
+body{
+    margin:0px;
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size:592%;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+p{
+    overflow-wrap: break-word;
+    /* text-align: left; */
+    font-family:  sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+hr{
+    border-style:none ;
+    border-top-style:dotted;
+    border-color: grey;
+    border-width: 8px;
+    width: 5%;
+}
+ul , li , ol{
+    text-align: left;
+    padding-top: 1% ;
+    font-size:120%;
+}
+
+.left-allign{
+    text-align: left;
+}
+
+/* MAKING A SICK ASS PFP */
+.profilePhoto{
+    border-radius: 50%;
+    width: 10%;
+    position: relative;
+    z-index: 1;
+    left:-20%;
+
+}
+/* glass circles that overlap the pfp  */
+.circle{
+    border-radius: 50%;
+}
+#circle-1{
+    height:4em;
+    width:4em;
+    z-index: 2;
+    border-radius: 50%;
+    background-image: linear-gradient(to top right , rgba(255,255,255,0.9),rgba(255,255,255,0.1 ));
+    position: absolute;
+    left:33%;
+    top:8%
+}
+#circle-2{
+    height:8em;
+    width: 8em;
+    border-radius: 50%;
+    background-image: linear-gradient(to top right , rgba(255,255,255,0.9),rgba(255,255,255,0.2 ));
+    position:absolute;
+    left:23%;
+    top:17%;
+    z-index: 2;
+}
+/* positioning
+    -static: by defualt keep to the html frow
+    -relative: position to the elememt reletive to how it yould have been statically
+    -absolute: relative to the parent box, ading a margine with respect to the parent element
+    -fixed: stays on the screen constantly
+
+*/
+/* *********************************************** */
+
+
+#introduction{
+    background-image: linear-gradient(to top right , #75cfb8,#bbdfc8);
+    background-blend-mode: color;
+    /* width: 100vw;
+    height:100vh; */
+    position:relative;
+    padding-top: 100px;
+    /* how to center things */
+    text-align: center;   
+    overflow: hidden;
+
+}
+
+/* The land scape that sets a scene with a city and 2 clouds */
+.cityImage{
+
+    position: relative;
+    top:15%;
+    width: 50%;
+    height:auto;
+    /* text-align: center; */
+}
+.cloud1,.cloud2{
+    position:absolute;
+}
+
+.cloud1{
+ left:  60%;
+ top:10%;
+ width:15%;
+}
+
+.cloud2{
+    left:20%;
+    top:40%;
+    width:17%
+}
+
+/* *****************The second part that has some information about me and my Qualifications********************* */
+.myInformation{
+
+    background-image: linear-gradient(to top right , #c19277,#f0e5d8);
+    background-blend-mode: color;
+    padding-top: 50px;
+    overflow: hidden;
+}
+
+.icon{
+    width:8%;
+}
+
+.hello{
+    text-align: center;
+    width:48%;
+    float:left;
+    border-right-color: cadetblue;
+    border-width: 1px;
+    padding-left:2%;
+  
+}
+
+.tvcLogo , .tuksLogo{
+    width:15%;
+    padding:2%;
+}
+
+
+.Qualifications{
+    width: 50%;
+    text-align: center;
+    float:left;
+    border-left-color:cadetblue ;
+    border-width: 1px;
+    text-decoration: underline #03506f;  
+    height:40%;
+}
+
+.view-Document{
+    background-color: powderblue;
+    width:2%;
+}
+
+.hobbies{   
+    /* position: relative; */
+    /* top:-5%; */
+    width:50%;
+    height:30%;
+    text-align: center;
+    /* float:left; */
+    /* padding-top: 10%;  */
+    
+    padding-left:2%;
+}
+
+
+.work{
+    width: 50%;
+    text-align: center;
+    float:left;
+    border-left-color:cadetblue ;
+    padding-top:5%;
+    border-width: 1px;
+}
+
+/* ******************************************************************* */
+.Knowlage{
+    padding-top: 10%;
+
+    text-align: center;
+    width:40%;
+    padding-left: 25%;
+    padding-top:0%;
+    float:left;
+    border-right-color: cadetblue;
+    border-width: 1px;
+}
+
+.knowlage-image{
+    width:8%;
+    height: 8%;
+
+}
+
+.knowlage-table , .skills-table{
+     position: relative;
+     left:15%;
+}
+
+.skills-table{
+    font-size: 120%;
+}
+
+.skills
+{
+    padding-top: 10%;
+
+    background-image: linear-gradient(to top right , #5eaaa8,#d3e0ea);
+    background-blend-mode: color;
+    overflow: hidden;
+}
+
+.skills-list{
+    text-align: center;
+    width:40%;
+    padding-left: 25%;
+    padding-top:0%;
+    float:left;
+    border-right-color: cadetblue;
+    border-width: 1px;
+}
+
+.skills-Icon , .knowlage-image{
+    width:14%;
+}
+
+/* ***********************Contact info************************* */
+
+.contact-Info{
+    padding-top: 10%;
+    text-align: center;
+    background-image: linear-gradient(to top right , #9dad7f,#f7f7e8);
+    background-blend-mode: color;
+    overflow: hidden;
+}
