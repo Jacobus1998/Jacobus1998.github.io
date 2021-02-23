@@ -167,11 +167,10 @@ ul , li , ol{
 
 .hobbies{   
     /* position: relative; */
-    /* top:-5%; */
     width:50%;
     height:30%;
     text-align: center;
-    /* float:left; */
+    float:left;
     /* padding-top: 10%;  */
     
     padding-left:2%;
@@ -182,7 +181,7 @@ ul , li , ol{
     width: 50%;
     text-align: center;
     float:left;
-    border-left-color:cadetblue ;
+    /* border-left-color:cadetblue ; */
     padding-top:5%;
     border-width: 1px;
 }
